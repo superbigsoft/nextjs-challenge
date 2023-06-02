@@ -1,0 +1,48 @@
+{
+  "name": "paycheck",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test": "react-scripts test"
+  },
+  "dependencies": {
+    "antd": "^5.5.2",
+    "autoprefixer": "10.4.14",
+    "axios": "^1.4.0",
+    "eslint": "8.41.0",
+    "eslint-config-next": "13.4.4",
+    "next": "13.4.4",
+    "postcss": "8.4.24",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "reflect-metadata": "^0.1.13",
+    "tailwindcss": "3.3.2",
+    "tsyringe": "^4.7.0",
+    "typescript": "5.0.4"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^14.0.0",
+    "@testing-library/user-event": "^14.4.3",
+    "@types/jest": "^27.5.2",
+    "@types/node": "20.2.5",
+    "@types/react": "18.2.7",
+    "@types/react-dom": "18.2.4",
+    "@types/react-test-renderer": "^18.0.0",
+    "moq.ts": "^10.0.6",
+    "react-test-renderer": "^18.2.0",
+    "react-scripts": "5.0.1"
+  },
+  "jest": {
+    "moduleNameMapper": {
+       "@/(.*)$": "<rootDir>/src/$1"
+    },
+    "transformIgnorePatterns": [
+      "/!node_modules\\/antd/"
+    ]
+  }
+}

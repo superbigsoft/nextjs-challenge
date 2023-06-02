@@ -1,0 +1,7 @@
+{
+    "prettier.tabWidth": 4,
+    "dart.lineLength": 160,
+    "html.format.wrapLineLength": 160,
+    "prettier.printWidth": 160,
+    "vetur.format.options.tabSize": 4
+}
