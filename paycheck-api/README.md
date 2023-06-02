@@ -5,7 +5,7 @@ This is the backend implementation for ReactJS Challenge.
 ## Implementation Report
 - Language: Typescript
 - Framework: ExpressJS
-- Note: this backend is a quick setup just to send the successfully send request to ScalaPay api.
+- Note: this backend is a quick setup just to successfully send request to ScalaPay api due to CORS restriction.
 ## Running the code
 
 Install dependent packages :
